@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="위포인트 서비스 POS API 연동 문서 : WI Point pages for developers">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>위포인트 서비스 POS API 연동 문서</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/wipoint">View on GitHub</a>
+
+          <h1 id="project_title">위포인트 서비스 POS API 연동 문서</h1>
+          <h2 id="project_tagline">WI Point pages for developers</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="wipoint-pos-api-reference" class="anchor" href="#wipoint-pos-api-reference" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>WiPoint POS API Reference</h1>
+
+<ul>
+<li><a href="#http-header">HTTP Header</a></li>
+<li><a href="#%EC%9D%B8%EC%A6%9D">인증</a></li>
+</ul>
+
+<h2>
+<a id="http-header" class="anchor" href="#http-header" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTTP Header</h2>
+
+<p>필수항목
+| NAME        | VALUE               | 비고      |
+| ----------- | ------------------  |--------- |
+| Content-Type| application/json    | JSON 포맷  |
+| vendorId    | {사전에 제공된 코드 값} | 제휴사/POS 조합 고유번호  |
+| storeCode   | {사전에 제공된 코드 값} | 매장 코드  |
+| posCode     | {사전에 제공된 코드 값} | POS 코드  |</p>
+
+<p>일부 API 필수항목
+| NAME        | VALUE               | 비고  |
+| ----------- | ------------------  |--------- |
+| token       | {인증 API에서 받은 토큰 값} | 인증 API 호출 외에는 필수 |</p>
+
+<h2>
+<a id="인증" class="anchor" href="#%EC%9D%B8%EC%A6%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>인증</h2>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
